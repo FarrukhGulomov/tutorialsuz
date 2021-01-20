@@ -1,2 +1,1 @@
-# tutorialsuz
-Tutorials.uz
+#Tutorials.uz
