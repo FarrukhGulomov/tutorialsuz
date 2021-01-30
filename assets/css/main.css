@@ -254,7 +254,7 @@ padding-bottom: 15px;
   background: linear-gradient(to right, #a8c6d4, #a6c3d3); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
   text-align: center;
   color:#1D4350;
-  transition:1s linear-gradient 2s;
+  
 
 }
 #menu-toggle:hover{
@@ -439,18 +439,14 @@ header .header-bottom  .menu-top {
   height: 100%;
   /*background-color:#92b2be;*/
   position: absolute;
-  z-index: -100;
-  
+  z-index: 1;
+  box-shadow: 4px 0 10px rgba(0, 0, 0, .1);
+  border-left:1px solid transparent;
   padding-top: 56px;
   padding-bottom: 56px;
-opacity: 0.8;
-/*
+  opacity: .8;
+box-shadow:0px 0px 15px 4px rgba(0, 0, 0, .6);
 
-#e2e2e2
-background: #74ebd5;  /* fallback for old browsers */
-/*background: -webkit-linear-gradient(to right, #ACB6E5, #74ebd5);  /* Chrome 10-25, Safari 5.1-6 */
-/*background: linear-gradient(to right, #ACB6E5, #74ebd5); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
-background: #6190E8;  /* fallback for old browsers */
 background: -webkit-linear-gradient(to right, #A7BFE8, #6190E8);  /* Chrome 10-25, Safari 5.1-6 */
 background: linear-gradient(to right, #A7BFE8, #6190E8); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
 
@@ -460,8 +456,10 @@ background: linear-gradient(to right, #A7BFE8, #6190E8); /* W3C, IE 10+/ Edge, F
     display: block;
     z-index: 100;
     top: 40px;
-    transition:1s linear-gradient 2s;
+   transition: color .2s ease-in,
+    linear-gradient 5s ease-out;
 
+    
               
     
   }
