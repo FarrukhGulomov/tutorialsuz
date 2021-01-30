@@ -233,7 +233,7 @@ background-color: #f4f4f4;
 line-height: 60px;  
 border: 0;  
 border-radius: 30px;
-   
+padding-right: 4.4rem;  
     
 
 }
@@ -258,6 +258,7 @@ display: flex;
 justify-content: center;
 align-items:center;
 cursor: pointer;
+
 }
 .search-circle .fa-search{
 display: block;
@@ -266,14 +267,18 @@ cursor: pointer;
 }
 
 
-@media only screen  and (max-width: 1109px){
-header{
-display: none;
-}  
-} 
+/* 
+  ##Device = Tablets, Ipads (portrait)
+  ##Screen = B/w 768px to 1024px
+*/
 
-@media  (max-width:980px) {
-  header{
-  display: none;
+@media (min-width: 320px) and (max-width: 1180px) {
+  
+  header .header-top{
+    display: none;
   }
+  
 }
+
+
+
