@@ -330,10 +330,21 @@ section .main-bg {
  
   
   
-  header .header-top .user-area ul {
-    margin-right: 2em;
-   
+
+header .header-bottom .menu-top .navbar-menu li {
+  list-style: none;
+  padding: 27px 20px 0px 0;
 }
+header .header-bottom  .menu-top .navbar-menu a {
+ 
+  font-size: 16px;
+  
+  }
+  .search-form {
+   
+   margin-right: 0rem;
+}
+
 }
 
 @media only screen and (min-width: 1600px) and (max-width: 1800px){
