@@ -254,8 +254,19 @@ padding-bottom: 15px;
   background: linear-gradient(to right, #f2fcfe, #1c92d2); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
   text-align: center;
   color:#101010;
+  transition: all 1.2s ease-in-out;
 
 }
+#menu-toggle:hover{
+  color:#ffffff;
+  background: #2980b9;  /* fallback for old browsers */
+background: -webkit-linear-gradient(to right, #2c3e50, #2980b9);  /* Chrome 10-25, Safari 5.1-6 */
+background: linear-gradient(to right, #2c3e50, #2980b9); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+
+
+}
+
+
  .bi-list {
   
 }
@@ -449,6 +460,7 @@ background: linear-gradient(to right, #A7BFE8, #6190E8); /* W3C, IE 10+/ Edge, F
     display: block;
     z-index: 100;
     top: 40px;
+    transition: all 1.2s ease-in;
   }
 
   header .header-bottom  .menu-top .navbar-menu{
