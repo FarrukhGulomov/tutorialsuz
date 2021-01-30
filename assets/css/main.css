@@ -328,14 +328,14 @@ section .main-bg {
   
 }
 
-@media only screen and (min-width: 992px) and (max-width: 1199px){
+@media only screen and (min-width: 320px) and (max-width: 1199px){
   header .header-top{
     
     display: none;
   }
 
 
-  
+
 
 header .header-bottom .menu-top .navbar-menu li {
   list-style: none;
