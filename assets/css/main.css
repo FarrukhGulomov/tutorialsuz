@@ -113,22 +113,21 @@ border-bottom: 1px solid #eeeeee;
 position: relative;
 
 }
-header .header-top .header-left ul{
+header .header-top ul{
   list-style: none; 
 display: flex;
 }
 
-header .header-top .header-contacts ul  {
+/*header .header-top .header-contacts ul  {
 list-style: none; 
 display: flex;
 }
 header .header-top .user-area ul  {
   list-style: none; 
   display: flex;
-  justify-content: right;
-
+  
   }
-
+*/
 header .header-top .header-left {
 background-color:#0a2a66;
 float: left;
@@ -234,16 +233,26 @@ padding-bottom: 15px;
 }
 
 #menu-toggle{
-  display: block;
+  display: none;
   position: absolute;
-  right: 0;
-  top: 0;
-}
-#menu-toggle span{
+  right: 10%;
+  top: 12%;
+  z-index: -100;
+  text-decoration: none;
+  transition: z-index .5s ease;
+  border:1px solid#4a9eda;
+  padding:10px 15px;
+  letter-spacing: 1.2px;
   font-size: 12px;
+  line-height: 12px;
   font-family: 'Basic','sans-serif';
   font-style: normal;
   font-weight: 400;
+  border-radius: 3px;
+}
+#menu-toggle span{
+  
+  
 }
 
 
@@ -410,7 +419,7 @@ header .header-bottom  .menu-top {
   height: 100%;
   /*background-color:#92b2be;*/
   position: absolute;
-  z-index: 1;
+  z-index: -100;
   
   padding-top: 56px;
   padding-bottom: 56px;
@@ -426,6 +435,13 @@ background: -webkit-linear-gradient(to right, #A7BFE8, #6190E8);  /* Chrome 10-2
 background: linear-gradient(to right, #A7BFE8, #6190E8); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
 
   }
+
+  #menu-toggle {
+    display: block;
+    z-index: 100;
+    top: 40px;
+  }
+
   header .header-bottom  .menu-top .navbar-menu{
     display: block;
   }
