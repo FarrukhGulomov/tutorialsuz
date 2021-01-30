@@ -1,5 +1,5 @@
 
-
+/* https://uigradients.com/ */
 
 
 /* STYLES 
@@ -72,6 +72,23 @@
          url('../assets/fonts/open-sans-v18-latin-800italic.woff2') format('woff2'), /* Chrome 26+, Opera 23+, Firefox 39+ */
          url('../assets/fonts/open-sans-v18-latin-800italic.woff') format('woff'); /* Chrome 6+, Firefox 3.6+, IE 9+, Safari 5.1+ */
   }
+
+/* basic-regular - latin */
+@font-face {
+  font-family: 'Basic';
+  font-style: normal;
+  font-weight: 400;
+  src: local(''),
+       url('../assets/fonts/basic-v10-latin-regular.woff2') format('woff2'), /* Chrome 26+, Opera 23+, Firefox 39+ */
+       url('../assets/fonts/basic-v10-latin-regular.woff') format('woff'); /* Chrome 6+, Firefox 3.6+, IE 9+, Safari 5.1+ */
+}
+
+
+
+
+
+
+
 
 
 
@@ -215,6 +232,21 @@ display: flex;
 padding-top: 15px;
 padding-bottom: 15px;
 }
+
+#menu-toggle{
+  display: block;
+  position: absolute;
+  right: 0;
+  top: 0;
+}
+#menu-toggle span{
+  font-size: 12px;
+  font-family: 'Basic','sans-serif';
+  font-style: normal;
+  font-weight: 400;
+}
+
+
 header .header-bottom  .menu-top .navbar-menu li{
 list-style: none;
 padding: 27px 30px 0px 0; 
