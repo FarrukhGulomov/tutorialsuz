@@ -326,21 +326,27 @@ section .main-bg {
     display: none;
   }
 
-
+  header .header-bottom .form {
+    display: none;
+  }
 
 header .header-bottom .menu-top .navbar-menu li {
-  list-style: none;
   padding: 27px 20px 0px 0;
 }
-header .header-bottom  .menu-top .navbar-menu a {
- 
-  font-size: 16px;
+
+header .header-bottom  .menu-top .navbar-menu{
   
+  padding-top: 15px;
+  padding-bottom: 15px;
   }
-  .search-form {
-   
-   margin-right: 5rem;
-}
+
+
+
+
+
+
+
+
 
 }
 
@@ -353,3 +359,11 @@ header .header-bottom .form input {
 }
 }
 
+
+@media only screen and (min-width: 992px) and (max-width: 1199px){
+  header .header-bottom  .menu-top .navbar-menu a {
+ 
+    font-size: 16px;
+    
+    }
+}
