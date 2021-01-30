@@ -299,6 +299,32 @@ section .main-bg {
 
 
 
+# Mobile
+only screen and (min-width: 480px)
+
+# Tablet
+only screen and (min-width: 768px) 
+
+# Desktop
+only screen and (min-width: 992px)
+
+# Huge
+only screen and (min-width: 1280px) 
+
+
+
+
+Or:
+
+# Phone
+only screen and (max-width:320px)
+
+# Tablet
+only screen and (min-width:321px) and (max-width:768px)
+
+# Desktop
+only screen and (min-width:769px)
+
 
 
 
@@ -307,7 +333,6 @@ section .main-bg {
 
 
 */
-
 
 
 
@@ -319,7 +344,7 @@ section .main-bg {
 
 
 
-@media only screen and (min-width: 320px) and (max-width: 1199px){
+@media only screen and (min-width: 320px) and (max-width: 991px){
 
   header .header-top{
     
@@ -335,7 +360,14 @@ header .header-bottom .menu-top .navbar-menu li {
 }
 
 header .header-bottom  .menu-top .navbar-menu{
-  
+  top: 0;
+  right: 0;
+  width: 270px;
+  height: 100%;
+  background-color:#92b2be;
+  position: absolute;
+  z-index: 1;
+  display: block;
   padding-top: 15px;
   padding-bottom: 15px;
   }
@@ -350,6 +382,9 @@ header .header-bottom  .menu-top .navbar-menu{
 
 }
 
+
+
+
 @media only screen and (min-width: 1600px) and (max-width: 1800px){
   header .header-top{
    
@@ -361,9 +396,20 @@ header .header-bottom .form input {
 
 
 @media only screen and (min-width: 992px) and (max-width: 1199px){
+  
+  header .header-top .user-area ul {
+    margin-right: 0em;
+  }
+
+
+
+
   header .header-bottom  .menu-top .navbar-menu a {
  
     font-size: 16px;
     
     }
+
+
+
 }
