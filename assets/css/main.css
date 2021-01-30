@@ -197,8 +197,8 @@ font-weight: 800;
 
 header .header-bottom  .menu-top .navbar-menu{
 display: flex;
-padding-top: 16px;
-padding-bottom: 16px;
+padding-top: 15px;
+padding-bottom: 15px;
 }
 header .header-bottom  .menu-top .navbar-menu li{
 list-style: none;
@@ -277,10 +277,10 @@ cursor: pointer;
 /****************** MAIN*************/
 
 section .main-bg {
-  background: #a2a3c0 url(../img/bg3.jpg) no-repeat ;
+  background: #d9e7ee url(../img/bg4.jpg) no-repeat ;
+  background-position-y: 90%;
   background-size: cover;
- background-attachment: scroll;
-  height: 100vh;
+  height: 79vh;
 }
 
 
