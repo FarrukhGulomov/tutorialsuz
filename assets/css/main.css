@@ -85,6 +85,7 @@ box-sizing: border-box;
 
 /*   Header-top      */
 header .header {   
+  width: 100%;
 background-color:#fff;
 
 }
@@ -146,7 +147,7 @@ font-style: normal;
 font-weight: 300;
 }
 header .header-top .user-area ul {
-margin-right: 7.5em; 
+margin-right: 6.5em; 
 }
 header .header-top .user-area ul li {
 padding:0  25px ;  
@@ -277,6 +278,7 @@ cursor: pointer;
 /****************** MAIN*************/
 
 section .main-bg {
+  width: 100%;
   background: #d9e7ee url(../img/bg4.jpg) no-repeat ;
   background-position-y: 90%;
   background-size: cover;
@@ -315,15 +317,22 @@ section .main-bg {
 
 @media (min-width: 320px) and (max-width: 992px) {
   
+
+
   header .header-top{
+    
     display: none;
   }
   
 }
 
 @media only screen and (min-width: 992px) and (max-width: 1199px){
+ 
+  
+  
   header .header-top .user-area ul {
-    margin-right: 3.2em;
+    margin-right: 2em;
+   
 }
 }
 
