@@ -371,31 +371,40 @@ header .header-bottom .menu-top .navbar-menu li {
   padding: 27px 20px 0px 0;
 }
 
-header .header-bottom  .menu-top .navbar-menu{
+header .header-bottom  .menu-top {
   top: 0;
   right: 0;
   width: 270px;
   height: 100%;
-  background-color:#92b2be;
-
-
-  /* NOTE:  9DC7C6   92b2be*/
+  /*background-color:#92b2be;*/
   position: absolute;
   z-index: 1;
-  display: block;
-  padding-top: 15px;
-  padding-bottom: 15px;
-   opacity: 0.8;
- 
+  
+  padding-top: 56px;
+  padding-bottom: 56px;
+opacity: 0.8;
+/*
 
-
-
-
-
-
+#e2e2e2
+background: #74ebd5;  /* fallback for old browsers */
+/*background: -webkit-linear-gradient(to right, #ACB6E5, #74ebd5);  /* Chrome 10-25, Safari 5.1-6 */
+/*background: linear-gradient(to right, #ACB6E5, #74ebd5); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+background: #6190E8;  /* fallback for old browsers */
+background: -webkit-linear-gradient(to right, #A7BFE8, #6190E8);  /* Chrome 10-25, Safari 5.1-6 */
+background: linear-gradient(to right, #A7BFE8, #6190E8); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
 
   }
+  header .header-bottom  .menu-top .navbar-menu{
+    display: block;
+  }
 
+
+  header .header-bottom  .menu-top .navbar-menu a {
+ 
+    
+    color:#0F2027;
+    
+    }
 
 
 
