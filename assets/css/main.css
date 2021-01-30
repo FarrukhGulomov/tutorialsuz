@@ -240,7 +240,7 @@ padding-bottom: 15px;
   z-index: -100;
   text-decoration: none;
   transition: z-index .5s ease;
-  border:1px solid #1c92d2;
+  border:1px solid a6c3d3;
   padding:10px 15px;
   letter-spacing: 1.2px;
   font-size: 12px;
@@ -249,27 +249,27 @@ padding-bottom: 15px;
   font-style: normal;
   font-weight: 400;
   border-radius: 3px;
-  background: #1c92d2;  /* fallback for old browsers */
-  background: -webkit-linear-gradient(to right, #f2fcfe, #1c92d2);  /* Chrome 10-25, Safari 5.1-6 */
-  background: linear-gradient(to right, #f2fcfe, #1c92d2); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+  background: #90bed6;  /* fallback for old browsers */
+  background: -webkit-linear-gradient(to right, #d5ebf0, #9dbccc);  /* Chrome 10-25, Safari 5.1-6 */
+  background: linear-gradient(to right, #a8c6d4, #a6c3d3); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
   text-align: center;
-  color:#101010;
-  transition: all 1.2s ease-in-out;
+  color:#1D4350;
+  transition:1s linear-gradient 2s;
 
 }
 #menu-toggle:hover{
   color:#ffffff;
-  background: #2980b9;  /* fallback for old browsers */
-background: -webkit-linear-gradient(to right, #2c3e50, #2980b9);  /* Chrome 10-25, Safari 5.1-6 */
-background: linear-gradient(to right, #2c3e50, #2980b9); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
-
-
-}
-
-
- .bi-list {
+ 
+ border-color:#98add4;
+  background: #98add4;  /* fallback for old browsers */
+  background: -webkit-linear-gradient(to right, #A7BFE8, #7099e4);  /* Chrome 10-25, Safari 5.1-6 */
+  background: linear-gradient(to right, #A7BFE8, #6190E8); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
   
+
+
+
 }
+
 
 #menu-toggle .menu-text{
   vertical-align: middle;
@@ -283,7 +283,7 @@ padding: 27px 30px 0px 0;
 
 header .header-bottom  .menu-top .navbar-menu a {
 text-decoration: none;  
-font-size: 18px;
+font-size: 16px;
 color:#091a23;
 font-family: 'Open Sans';
 font-style: normal;
@@ -460,7 +460,10 @@ background: linear-gradient(to right, #A7BFE8, #6190E8); /* W3C, IE 10+/ Edge, F
     display: block;
     z-index: 100;
     top: 40px;
-    transition: all 1.2s ease-in;
+    transition:1s linear-gradient 2s;
+
+              
+    
   }
 
   header .header-bottom  .menu-top .navbar-menu{
