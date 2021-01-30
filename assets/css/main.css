@@ -286,6 +286,26 @@ section .main-bg {
 
 
 
+/* NOTE: 
+@media (max-width: 575px)
+@media only screen and (min-width: 576px) and (max-width: 767px)
+@media only screen and (min-width: 768px) and (max-width: 991px)
+@media only screen and (min-width: 992px) and (max-width: 1199px)
+@media only screen and (min-width: 1200px) and (max-width: 1800px)
+
+
+
+
+
+
+
+
+
+
+*/
+
+
+
 
 
 /* 
@@ -293,7 +313,7 @@ section .main-bg {
   ##Screen = B/w 768px to 1024px
 */
 
-@media (min-width: 320px) and (max-width: 1180px) {
+@media (min-width: 320px) and (max-width: 992px) {
   
   header .header-top{
     display: none;
@@ -301,8 +321,16 @@ section .main-bg {
   
 }
 
+@media only screen and (min-width: 992px) and (max-width: 1199px){
+  header .header-top .user-area ul {
+    margin-right: 3.2em;
+}
+}
 
-@media only screen and (min-width: 1200px) and (max-width: 1600px){
+@media only screen and (min-width: 1600px) and (max-width: 1800px){
+  header .header-top{
+   
+  }
 header .header-bottom .form input {
     width: 250px;
 }
