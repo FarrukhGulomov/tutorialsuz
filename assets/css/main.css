@@ -147,7 +147,9 @@ font-style: normal;
 font-weight: 300;
 }
 header .header-top .user-area ul {
-margin-right: 6.5em; 
+  margin-right: 6.5em; 
+ 
+ 
 }
 header .header-top .user-area ul li {
 padding:0  25px ;  
@@ -229,13 +231,13 @@ header .header-bottom   .search-form{
 
 .search-form{
 position: relative;
-margin-right: 8rem;
+margin-right: 7rem;
 }
 .form-input {
 width: 250px;
 height: 60px;
 display: block;
-padding: 0px 30px;  
+padding: 0px 28px;  
 background-color: #f4f4f4;
 line-height: 60px;  
 border: 0;  
@@ -327,8 +329,12 @@ section .main-bg {
 }
 
 @media only screen and (min-width: 992px) and (max-width: 1199px){
- 
-  
+  header .header-top{
+    
+    display: none;
+  }
+
+
   
 
 header .header-bottom .menu-top .navbar-menu li {
@@ -342,7 +348,7 @@ header .header-bottom  .menu-top .navbar-menu a {
   }
   .search-form {
    
-   margin-right: 0rem;
+   margin-right: 5rem;
 }
 
 }
