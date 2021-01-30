@@ -181,7 +181,7 @@ display: flex;
 background-color:#f4f4f4;
 min-width: 246px;
 width: 246px;
-padding: 40px 0px;
+padding: 30px 0px;
 text-align: center;
 border-color: transparent;
 }
@@ -197,7 +197,8 @@ font-weight: 800;
 
 header .header-bottom  .menu-top .navbar-menu{
 display: flex;
-padding: 25px;
+padding-top: 16px;
+padding-bottom: 16px;
 }
 header .header-bottom  .menu-top .navbar-menu li{
 list-style: none;
@@ -217,7 +218,7 @@ header .header-bottom  .menu-top .navbar-menu a:hover{
 color:  #2d3092;
 }
 header .header-bottom .form {
-  padding: 30px 0;
+  padding: 20px 0;
 }
 
 header .header-bottom   .search-form{
@@ -272,6 +273,21 @@ cursor: pointer;
 }
 
 
+
+/****************** MAIN*************/
+
+section .main-bg {
+  background: #a2a3c0 url(../img/bg3.jpg) no-repeat ;
+  background-size: cover;
+ background-attachment: scroll;
+  height: 100vh;
+}
+
+
+
+
+
+
 /* 
   ##Device = Tablets, Ipads (portrait)
   ##Screen = B/w 768px to 1024px
@@ -291,3 +307,4 @@ header .header-bottom .form input {
     width: 250px;
 }
 }
+
