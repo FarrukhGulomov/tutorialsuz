@@ -96,10 +96,22 @@ border-bottom: 1px solid #eeeeee;
 position: relative;
 
 }
-header .header-top  ul  {
+header .header-top .header-left ul{
+  list-style: none; 
+display: flex;
+}
+
+header .header-top .header-contacts ul  {
 list-style: none; 
 display: flex;
 }
+header .header-top .user-area ul  {
+  list-style: none; 
+  display: flex;
+  justify-content: right;
+
+  }
+
 header .header-top .header-left {
 background-color:#0a2a66;
 float: left;
@@ -344,7 +356,7 @@ only screen and (min-width:769px)
 
 
 
-@media only screen and (min-width: 320px) and (max-width: 991px){
+@media only screen and (min-width: 320px) and (max-width: 1150px){
 
   header .header-top{
     
@@ -365,6 +377,9 @@ header .header-bottom  .menu-top .navbar-menu{
   width: 270px;
   height: 100%;
   background-color:#92b2be;
+
+
+  /* NOTE:  9DC7C6   92b2be*/
   position: absolute;
   z-index: 1;
   display: block;
@@ -398,7 +413,7 @@ header .header-bottom .form input {
 @media only screen and (min-width: 992px) and (max-width: 1199px){
   
   header .header-top .user-area ul {
-    margin-right: 0em;
+    
   }
 
 
