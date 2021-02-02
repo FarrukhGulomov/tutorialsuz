@@ -235,7 +235,8 @@ padding-bottom: 15px;
 #menu-toggle{
   display: none;
   position: absolute;
-  right: 3%;
+  /*right: 3;*/
+  right: 31.2%;
   top: 12%;
   z-index: -100;
   text-decoration: none;
@@ -257,6 +258,10 @@ padding-bottom: 15px;
   
 
 }
+
+
+
+
 #menu-toggle:hover{
   color:#ffffff;
  
@@ -266,13 +271,12 @@ padding-bottom: 15px;
   background: linear-gradient(to right, #A7BFE8, #6190E8); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
   
 
-
-
 }
 
 
 #menu-toggle .menu-text{
   vertical-align: middle;
+  transition: display .5s ease;
 }
 
 
@@ -435,15 +439,16 @@ header .header-bottom .menu-top .navbar-menu li {
 header .header-bottom  .menu-top {
   top: 0;
   right: 0;
-  width: 270px;
+  width: 0px;
   height: 100%;
   /*background-color:#92b2be;*/
   position: absolute;
-  z-index: 1;
+  z-index: -1;
   box-shadow: 4px 0 10px rgba(0, 0, 0, .1);
   border-left:1px solid transparent;
   padding-top: 56px;
   padding-bottom: 56px;
+  transition: width .3s ease;
   opacity: .8;
 box-shadow:0px 0px 15px 4px rgba(0, 0, 0, .6);
 
@@ -454,14 +459,16 @@ background: linear-gradient(to right, #A7BFE8, #6190E8); /* W3C, IE 10+/ Edge, F
 
   #menu-toggle {
     display: block;
-    z-index: 100;
+    z-index: 2;
     top: 40px;
    transition: color .2s ease-in,
     linear-gradient 5s ease-out;
+          
+    
+  }
 
-    
-              
-    
+  #menu-toggle .menu-text {
+    transition: display .5s ease;
   }
 
   header .header-bottom  .menu-top .navbar-menu{

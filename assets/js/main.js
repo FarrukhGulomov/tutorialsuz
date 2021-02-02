@@ -13,11 +13,15 @@ ready(function() {
 // MENU BTN TO OPEN RIGHT DOOR  
   const menuTop = document.querySelector(".menu-top");
   const OpenBtn = document.getElementById("menu-toggle");
+  const menuText =document.querySelector(".menu-text");
   OpenBtn.addEventListener('click',function(){
    
-    menuTop.style.zIndex="10"; 
-
-
+    
+    menuTop.style.zIndex="3";
+    menuTop.style.width="270px"; 
+    // OpenBtn.style.display="none";
+    
+    
   });
  
 
