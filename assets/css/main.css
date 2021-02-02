@@ -226,17 +226,24 @@ font-weight: 800;
 
 }
 
+
+
+
 header .header-bottom  .menu-top .navbar-menu{
 display: flex;
 padding-top: 15px;
 padding-bottom: 15px;
+transition: opacity 1s ease-out;
+}
+
+header .header-bottom  .menu-top{
+  transition: opacity 1.5s ease-out;
 }
 
 #menu-toggle{
   display: none;
   position: absolute;
-  /*right: 3;*/
-  right: 26%;
+  right: 3%;
   top: 12%;
   z-index: -100;
   text-decoration: none;
@@ -281,10 +288,11 @@ padding-bottom: 15px;
 
 #close-btn{
   display: block;
-  font-size: 40px;
+  font-size: 36px;
+  
   position: absolute;
   right: 0;
-  top: 45px;
+  top: 75px;
 
 }
 
@@ -458,7 +466,8 @@ header .header-bottom  .menu-top {
   border-left:1px solid transparent;
   padding-top: 56px;
   padding-bottom: 56px;
-  transition: width .3s ease;
+  transition: width .3s ease,
+  opacity 2s ease-out;
   opacity: .8;
 box-shadow:0px 0px 15px 4px rgba(0, 0, 0, .6);
 
@@ -473,12 +482,19 @@ background: linear-gradient(to right, #A7BFE8, #6190E8); /* W3C, IE 10+/ Edge, F
     top: 40px;
    transition: color .2s ease-in,
     linear-gradient 5s ease-out;
-          
+   /* right: 26%;    */ 
     
   }
 
   #menu-toggle .menu-text {
     transition: display .5s ease;
+  }
+
+
+  #close-btn{
+  z-index: -100;
+  top: 25px;
+  color:#091a23;
   }
 
   header .header-bottom  .menu-top .navbar-menu{
