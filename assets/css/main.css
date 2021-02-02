@@ -236,7 +236,7 @@ padding-bottom: 15px;
   display: none;
   position: absolute;
   /*right: 3;*/
-  right: 31.2%;
+  right: 26%;
   top: 12%;
   z-index: -100;
   text-decoration: none;
@@ -278,6 +278,16 @@ padding-bottom: 15px;
   vertical-align: middle;
   transition: display .5s ease;
 }
+
+#close-btn{
+  display: block;
+  font-size: 40px;
+  position: absolute;
+  right: 0;
+  top: 45px;
+
+}
+
 
 
 header .header-bottom  .menu-top .navbar-menu li{
