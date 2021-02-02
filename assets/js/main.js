@@ -9,6 +9,21 @@ const ready = function (cb) {
 
 // Usage
 ready(function() {
-    // Do something when the document is ready
+  
+// MENU BTN TO OPEN RIGHT DOOR  
+  const menuTop = document.querySelector(".menu-top");
+  const OpenBtn = document.getElementById("menu-toggle");
+  OpenBtn.addEventListener('click',function(){
+   
+    menuTop.style.zIndex="10"; 
+
+
+  });
+ 
+
+
+
+
+
    
 });
