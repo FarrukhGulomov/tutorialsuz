@@ -31,7 +31,8 @@ ready(function() {
 
     navbarMenu.style.opacity="0";
     menuTop.style.opacity="0";
-
+    closeBtn.style.zIndex="-100";
+    
   });
 
  
