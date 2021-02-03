@@ -16,24 +16,45 @@ ready(function() {
   const menuText =document.querySelector(".menu-text");
   const closeBtn =document.getElementById("close-btn");
   const navbarMenu =document.querySelector(".navbar-menu");
+  const mainBg = document.querySelector(".main-bg");
+  var is =false;
   OpenBtn.addEventListener('click',function(){
    
-    
-    menuTop.style.zIndex="3";
-    menuTop.style.width="270px"; 
-    OpenBtn.style.display="none";
+    menuTop.style.zIndex="9";
+    menuTop.style.width="270px";
+    menuTop.style.right="0"; 
+    //OpenBtn.style.display="none";
     closeBtn.style.zIndex="10";
-    
+   OpenBtn.style.right="200px";
+  menuTop.style.visibility="visible";
+ 
+  // menuText.style.display="none"; 
+
+OpenBtn.addEventListener('mouseover',function(){
+  OpenBtn.style.borderColor="transparent";
+ 
+      
+
+
   });
+
+  });
+  
   closeBtn.addEventListener('click',function(event){
 
   event.preventDefault();
-
-    navbarMenu.style.opacity="0";
-    menuTop.style.opacity="0";
+    menuTop.style.display="block;"
+    //navbarMenu.style.opacity="0";
+    //menuTop.style.opacity="0";
     closeBtn.style.zIndex="-100";
-    
+    OpenBtn.style.display="block";
+    menuTop.style.width="0px";
+    OpenBtn.style.right="5%";
+
+    mainBg.style.backgroundPositionX="0px";
   });
+
+
 
  
 
