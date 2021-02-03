@@ -27,13 +27,13 @@ ready(function() {
     closeBtn.style.zIndex="10";
    OpenBtn.style.right="200px";
     menuTop.style.visibility="visible";
-    menuTop.css="display","block";
+   
   // menuText.style.display="none"; 
 
 OpenBtn.addEventListener('mouseover',function(){
   OpenBtn.style.borderColor="transparent";
  
-      
+  navbarMenu.style.display="block";
 
 
   });
@@ -43,17 +43,20 @@ OpenBtn.addEventListener('mouseover',function(){
   closeBtn.addEventListener('click',function(event){
 
   event.preventDefault();
-    menuTop.style.display="block;"
+    
     //navbarMenu.style.opacity="0";
     //menuTop.style.opacity="0";
     closeBtn.style.zIndex="-100";
     OpenBtn.style.display="block";
     menuTop.style.width="0px";
     OpenBtn.style.right="5%";
-
-    mainBg.style.backgroundPositionX="0px";
+    navbarMenu.style.display="none";
+    is=true;
   });
 
+  if(!is){
+    navbarMenu.style.display="visibility";
+  }
 
 
  

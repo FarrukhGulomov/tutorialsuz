@@ -459,7 +459,7 @@ header .header-bottom  .menu-top {
  
   top: 0;
  visibility:hidden;
-  display: none;
+ 
   width: 0px;
   height: 100%;
   /*background-color:#92b2be;*/
@@ -479,7 +479,9 @@ background: linear-gradient(to right, #A7BFE8, #6190E8); /* W3C, IE 10+/ Edge, F
 
   }
 
- 
+ .navbar-menu{
+    transition: display 1s ease;
+  }
 
   #menu-toggle {
     display: block;
@@ -488,7 +490,7 @@ background: linear-gradient(to right, #A7BFE8, #6190E8); /* W3C, IE 10+/ Edge, F
     
    transition: color .2s ease-in,
     linear-gradient 5s ease-out,
-    right .52s ease;
+    right .56s ease;
 
 
 
