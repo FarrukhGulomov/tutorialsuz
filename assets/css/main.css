@@ -459,7 +459,7 @@ header .header-bottom  .menu-top {
  
   top: 0;
  visibility:hidden;
-  
+  display: none;
   width: 0px;
   height: 100%;
   /*background-color:#92b2be;*/

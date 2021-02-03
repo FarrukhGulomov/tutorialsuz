@@ -26,8 +26,8 @@ ready(function() {
     //OpenBtn.style.display="none";
     closeBtn.style.zIndex="10";
    OpenBtn.style.right="200px";
-  menuTop.style.visibility="visible";
- 
+    menuTop.style.visibility="visible";
+    menuTop.css="display","block";
   // menuText.style.display="none"; 
 
 OpenBtn.addEventListener('mouseover',function(){
