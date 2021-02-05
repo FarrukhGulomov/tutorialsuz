@@ -459,13 +459,15 @@ header .header-bottom .menu-top .navbar-menu li {
 header .header-bottom  .menu-top {
  
   top: 0;
- /*visibility:hidden;*/
+ /*visibility:hidden;
+  display: none;*/
 
   width: 0px;
   height: 100%;
   /*background-color:#92b2be;*/
   position: absolute;
-  z-index: -999;
+  z-index: -100;
+
   box-shadow: 4px 0 10px rgba(0, 0, 0, .1);
   border-left:1px solid transparent;
   padding-top: 56px;
@@ -546,9 +548,7 @@ background: linear-gradient(to right, #A7BFE8, #6190E8); /* W3C, IE 10+/ Edge, F
 
 
 @media only screen and (min-width: 1600px) and (max-width: 1800px){
-  header .header-top{
-   
-  }
+ 
 header .header-bottom .form input {
     width: 250px;
 }
@@ -557,9 +557,7 @@ header .header-bottom .form input {
 
 @media only screen and (min-width: 992px) and (max-width: 1199px){
   
-  header .header-top .user-area ul {
-    
-  }
+  
 
 
 

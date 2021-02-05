@@ -27,7 +27,7 @@ ready(function () {
         //  menuTop.classList.toggle("d-block");
 
 
-        menuTop.classList.toggle("d-block");
+       // menuTop.classList.toggle("d-block");
         menuTop.style.zIndex = "9";
         menuTop.style.width = "270px";
         menuTop.style.right = "0";
@@ -39,8 +39,8 @@ ready(function () {
         // menuText.style.display="none";
 
         OpenBtn.addEventListener('mouseover', function () {
-            OpenBtn.style.borderColor = "transparent";
-
+           // OpenBtn.style.borderColor = "transparent";
+             
 
         });
 
@@ -57,7 +57,7 @@ ready(function () {
         menuTop.style.width = "0px";
         OpenBtn.style.right = "5%";
         // menuTop.style.display="none";
-        menuTop.classList.toggle("d-none");
+       // menuTop.classList.toggle("d-none");
         // is=true;
     });
 
