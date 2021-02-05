@@ -237,7 +237,8 @@ transition: opacity 1s ease-out;
 }
 
 header .header-bottom  .menu-top{
-  transition: opacity 1.5s ease-out;
+  transition: opacity 1.5s ease-out,
+  display .5s ease;
 }
 
 #menu-toggle{
@@ -459,7 +460,7 @@ header .header-bottom  .menu-top {
  
   top: 0;
  /*visibility:hidden;*/
- display: none;
+display: none;
   width: 0px;
   height: 100%;
   /*background-color:#92b2be;*/
@@ -470,8 +471,9 @@ header .header-bottom  .menu-top {
   padding-top: 56px;
   padding-bottom: 56px;
   transition: width .5s ease,
- 
+  display .5s ease,
   opacity 2s ease-out;
+
   opacity: .8;
 box-shadow:0px 0px 15px 4px rgba(0, 0, 0, .6);
 background: -webkit-linear-gradient(to right, #A7BFE8, #6190E8);  /* Chrome 10-25, Safari 5.1-6 */
