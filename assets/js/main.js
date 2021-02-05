@@ -27,7 +27,7 @@ ready(function () {
         //  menuTop.classList.toggle("d-block");
 
 
-        menuTop.style.display = "block";
+        menuTop.classList.toggle("d-block");
         menuTop.style.zIndex = "9";
         menuTop.style.width = "270px";
         menuTop.style.right = "0";
@@ -56,7 +56,8 @@ ready(function () {
         OpenBtn.style.display = "block";
         menuTop.style.width = "0px";
         OpenBtn.style.right = "5%";
-         menuTop.style.display="none";
+        // menuTop.style.display="none";
+        menuTop.classList.toggle("d-none");
         // is=true;
     });
 
