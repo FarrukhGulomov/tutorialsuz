@@ -22,18 +22,18 @@ ready(function() {
    
     menuTop.style.zIndex="9";
     menuTop.style.width="270px";
-    menuTop.style.right="0"; 
+    menuTop.style.right="0";
     //OpenBtn.style.display="none";
     closeBtn.style.zIndex="10";
    OpenBtn.style.right="200px";
-    menuTop.style.visibility="visible";
-   
-  // menuText.style.display="none"; 
+   // menuTop.style.visibility="visible";
+    menuTop.style.display="block";
+  // menuText.style.display="none";
 
 OpenBtn.addEventListener('mouseover',function(){
   OpenBtn.style.borderColor="transparent";
  
-  navbarMenu.style.display="block";
+  
 
 
   });
@@ -50,13 +50,11 @@ OpenBtn.addEventListener('mouseover',function(){
     OpenBtn.style.display="block";
     menuTop.style.width="0px";
     OpenBtn.style.right="5%";
-    navbarMenu.style.display="none";
+   // navbarMenu.style.display="none";
     is=true;
   });
 
-  if(!is){
-    navbarMenu.style.display="visibility";
-  }
+ 
 
 
  

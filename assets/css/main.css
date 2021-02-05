@@ -458,8 +458,8 @@ header .header-bottom .menu-top .navbar-menu li {
 header .header-bottom  .menu-top {
  
   top: 0;
- visibility:hidden;
- 
+ /*visibility:hidden;*/
+ display: none;
   width: 0px;
   height: 100%;
   /*background-color:#92b2be;*/
@@ -481,6 +481,7 @@ background: linear-gradient(to right, #A7BFE8, #6190E8); /* W3C, IE 10+/ Edge, F
 
  .navbar-menu{
     transition: display 1s ease;
+    
   }
 
   #menu-toggle {
@@ -490,7 +491,7 @@ background: linear-gradient(to right, #A7BFE8, #6190E8); /* W3C, IE 10+/ Edge, F
     
    transition: color .2s ease-in,
     linear-gradient 5s ease-out,
-    right .56s ease;
+    right .5s ease;
 
 
 
