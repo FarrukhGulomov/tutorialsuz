@@ -24,13 +24,15 @@ ready(function () {
 
     OpenBtn.addEventListener('click', function () {
 
-        //  menuTop.classList.toggle("d-block");
+      //    menuTop.classList.toggle("d-flex");
+      if(window.screenX <1150) {
+        menuTop.style.display="block";
+      }
 
-
-       // menuTop.classList.toggle("d-block");
+        
         menuTop.style.zIndex = "9";
         menuTop.style.width = "270px";
-        menuTop.style.right = "0";
+      //  menuTop.style.right = "0";
         //OpenBtn.style.display="none";
         closeBtn.style.zIndex = "10";
         OpenBtn.style.right = "200px";
@@ -40,7 +42,7 @@ ready(function () {
 
         OpenBtn.addEventListener('mouseover', function () {
            // OpenBtn.style.borderColor = "transparent";
-             
+
 
         });
 
@@ -57,7 +59,9 @@ ready(function () {
         menuTop.style.width = "0px";
         OpenBtn.style.right = "5%";
         // menuTop.style.display="none";
-       // menuTop.classList.toggle("d-none");
+       
+        if(window.screenX<1150) {
+        menuTop.classList.toggle("d-none"); }
         // is=true;
     });
 
