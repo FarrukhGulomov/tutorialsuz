@@ -311,7 +311,7 @@ color:#091a23;
 font-family: 'Open Sans';
 font-style: normal;
 font-weight: 600;
-transition: color .3s ease;
+/*transition: color .3s ease;*/
 }
 header .header-bottom  .menu-top .navbar-menu a:hover{
 color:  #2d3092;
@@ -473,15 +473,18 @@ header .header-bottom  .menu-top {
   padding-top: 56px;
   padding-bottom: 56px;
   transition: width .5s ease,
-  display .5s ease,
-  opacity 2s ease-out;
-
+  display .5s ease;
+  
   opacity: .8;
 box-shadow:0px 0px 15px 4px rgba(0, 0, 0, .6);
 background: -webkit-linear-gradient(to right, #A7BFE8, #6190E8);  /* Chrome 10-25, Safari 5.1-6 */
 background: linear-gradient(to right, #A7BFE8, #6190E8); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
 
   }
+
+
+
+
 
  .navbar-menu{
     transition: display 1s ease;
@@ -526,12 +529,15 @@ background: linear-gradient(to right, #A7BFE8, #6190E8); /* W3C, IE 10+/ Edge, F
   header .header-bottom  .menu-top .navbar-menu{
     display: block;
   }
+  header .header-bottom  .menu-top .navbar-menu a{
+    transition: color 0.2s step-start,
+    color 0.3s step-end;
+  }
 
-
-  header .header-bottom  .menu-top .navbar-menu a {
+  header .header-bottom  .menu-top .navbar-menu a:hover {
  
     
-    color:#0F2027;
+    color: #f1f1f1;
     
     }
 

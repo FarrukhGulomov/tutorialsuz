@@ -11,13 +11,13 @@ const ready = function (cb) {
 ready(function () {
 
 // MENU BTN TO OPEN RIGHT DOOR  
-    var menuTop = document.querySelector(".menu-top");
-    var OpenBtn = document.getElementById("menu-toggle");
-    var menuText = document.querySelector(".menu-text");
-    var closeBtn = document.getElementById("close-btn");
-    var mainBg = document.querySelector(".main-bg");
-    var navbarMenu = document.querySelector(".navbar-menu");
-    var Style = window.getComputedStyle(menuTop),
+    const menuTop = document.querySelector(".menu-top");
+    const OpenBtn = document.getElementById("menu-toggle");
+    const menuText = document.querySelector(".menu-text");
+    const closeBtn = document.getElementById("close-btn");
+    const mainBg = document.querySelector(".main-bg");
+    const navbarMenu = document.querySelector(".navbar-menu");
+    const Style = window.getComputedStyle(menuTop),
     Display =Style.getPropertyValue('display');
    
    // console.log(Display);
@@ -36,19 +36,13 @@ ready(function () {
         
         menuTop.style.zIndex = "9";
         menuTop.style.width = "270px";
-      //  menuTop.style.right = "0";
-        //OpenBtn.style.display="none";
         closeBtn.style.zIndex = "10";
         OpenBtn.style.right = "200px";
-        // menuTop.style.visibility="visible";
-
-        // menuText.style.display="none";
-
-        OpenBtn.addEventListener('mouseover', function () {
-           // OpenBtn.style.borderColor = "transparent";
+       
 
 
-        });
+
+        
 
     });
 
