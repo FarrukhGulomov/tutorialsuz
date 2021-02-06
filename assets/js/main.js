@@ -18,49 +18,45 @@ ready(function () {
     const mainBg = document.querySelector(".main-bg");
     const navbarMenu = document.querySelector(".navbar-menu");
     const Style = window.getComputedStyle(menuTop),
-    Display =Style.getPropertyValue('display');
+    BackgroundColor =Style.getPropertyValue('backgroundColor');
    
    // console.log(Display);
-    var is = false;
-
+    
+   var is = false;
 
 
 
     OpenBtn.addEventListener('click', function () {
 
-      //    menuTop.classList.toggle("d-flex");
-      
-      // menuTop.style.display="block";
-      
-       
-        
         menuTop.style.zIndex = "9";
         menuTop.style.width = "270px";
         closeBtn.style.zIndex = "10";
         OpenBtn.style.right = "200px";
        
+         is = true;
 
-
-
-        
 
     });
+    if(is) {
+        console.log(BackgroundColor);
+        OpenBtn.style.backgroundColor="red";
+    }
+
 
     closeBtn.addEventListener('click', function (event) {
 
         event.preventDefault();
 
-        //navbarMenu.style.opacity="0";
-        //menuTop.style.opacity="0";
+        
         closeBtn.style.zIndex = "-100";
         OpenBtn.style.display = "block";
         menuTop.style.width = "0px";
         OpenBtn.style.right = "5%";
-        // menuTop.style.display="none";
+      
        
         
        
-        // is=true;
+       
     });
     
 
