@@ -462,13 +462,12 @@ header .header-bottom  .menu-top {
  /*visibility:hidden;
   display: none;*/
   right: 0;
-  display: none;
   width: 0px;
   height: 100%;
   /*background-color:#92b2be;*/
-  position: absolute;
+  position: fixed;
   z-index: -100;
-
+  overflow-x: hidden;
   box-shadow: 4px 0 10px rgba(0, 0, 0, .1);
   border-left:1px solid transparent;
   padding-top: 56px;

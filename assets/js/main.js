@@ -11,12 +11,16 @@ const ready = function (cb) {
 ready(function () {
 
 // MENU BTN TO OPEN RIGHT DOOR  
-    const menuTop = document.querySelector(".menu-top");
-    const OpenBtn = document.getElementById("menu-toggle");
-    const menuText = document.querySelector(".menu-text");
-    const closeBtn = document.getElementById("close-btn");
-    const navbarMenu = document.querySelector(".navbar-menu");
-    const mainBg = document.querySelector(".main-bg");
+    var menuTop = document.querySelector(".menu-top");
+    var OpenBtn = document.getElementById("menu-toggle");
+    var menuText = document.querySelector(".menu-text");
+    var closeBtn = document.getElementById("close-btn");
+    var mainBg = document.querySelector(".main-bg");
+    var navbarMenu = document.querySelector(".navbar-menu");
+    var Style = window.getComputedStyle(menuTop),
+    Display =Style.getPropertyValue('display');
+   
+   // console.log(Display);
     var is = false;
 
 
@@ -25,10 +29,10 @@ ready(function () {
     OpenBtn.addEventListener('click', function () {
 
       //    menuTop.classList.toggle("d-flex");
-      if(window.screenX <1150) {
-        menuTop.style.display="block";
-      }
-
+      
+      // menuTop.style.display="block";
+      
+       
         
         menuTop.style.zIndex = "9";
         menuTop.style.width = "270px";
@@ -60,10 +64,10 @@ ready(function () {
         OpenBtn.style.right = "5%";
         // menuTop.style.display="none";
        
-        if(window.screenX<1150) {
-        menuTop.classList.toggle("d-none"); }
+        
+       
         // is=true;
     });
-
+    
 
 });
