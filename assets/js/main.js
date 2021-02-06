@@ -26,6 +26,9 @@ ready(function () {
 
 
 
+
+
+
     OpenBtn.addEventListener('click', function () {
 
         menuTop.style.zIndex = "9";
@@ -34,13 +37,10 @@ ready(function () {
         OpenBtn.style.right = "200px";
        
          is = true;
-
-
+    
     });
-    if(is) {
-        console.log(BackgroundColor);
-        OpenBtn.style.backgroundColor="red";
-    }
+
+   
 
 
     closeBtn.addEventListener('click', function (event) {
@@ -59,5 +59,20 @@ ready(function () {
        
     });
     
+
+
+if(is){
+   
+OpenBtn.addEventListener("click",function(){
+    closeBtn.style.zIndex = "-100";
+    menuTop.style.width = "0px";
+    OpenBtn.style.right = "5%";
+
+});
+is=false;
+}
+
+
+
 
 });

@@ -288,7 +288,7 @@ header .header-bottom  .menu-top{
 }
 
 #close-btn{
-  display: block;
+  display: none;
   font-size: 36px;
   
   position: absolute;
@@ -524,6 +524,12 @@ background: linear-gradient(to right, #A7BFE8, #6190E8); /* W3C, IE 10+/ Edge, F
   z-index: -100;
   top: 25px;
   color:#091a23;
+  display: block;
+  transition: display .5s ease,
+  color .5s ease;
+  }
+  #close-btn:hover{
+    color:#f1f1f1;
   }
 
   header .header-bottom  .menu-top .navbar-menu{
