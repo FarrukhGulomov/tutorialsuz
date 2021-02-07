@@ -391,14 +391,36 @@ section .main-bg .main-text{
 }
 
 
-.btn{
+/*.btn{
 box-shadow: inset 0 0 0 0 #0f3e74;
 transition: box-shadow  ease-out .4s;
 }
 .btn:hover{
   box-shadow: inset 134px 0 0 0 #0f3e74;
  
+}*/
+.btn{
+  position: relative;
+  z-index: 1;
 }
+.btn::before{
+  position: absolute;
+  top: 0;
+  left: 50%;
+  right: 50%;
+  bottom: 0;
+  opacity: 0;
+  content: "";
+  background-color:#42fbf2;
+
+}
+.btn:hover::before{
+left: 0;
+right: 0;
+opacity: 1;
+z-index: -1;
+}
+
 
   
  
