@@ -117,7 +117,7 @@ header .header-top ul{
   list-style: none; 
 display: flex;
 }
-  
+
 header .header-top .header-left {
 background-color:#0a2a66;
 float: left;
@@ -352,12 +352,17 @@ display: flex;
 justify-content: center;
 align-items:center;
 cursor: pointer;
-
 }
+
+
 .search-circle .fa-search{
 display: block;
 color:#fff;
 cursor: pointer;
+transition: color .3s ease-in;
+}
+.search-circle:hover >.fa-search{
+  color:#b4b5b9;
 }
 
 
