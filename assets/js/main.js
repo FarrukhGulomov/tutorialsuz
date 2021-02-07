@@ -17,10 +17,12 @@ ready(function () {
     const closeBtn = document.getElementById("close-btn");
     const mainBg = document.querySelector(".main-bg");
     const navbarMenu = document.querySelector(".navbar-menu");
+    const section =document.querySelectorAll("section");
+    const logoBrand=document.querySelector(".logo-brand");
     var Style = window.getComputedStyle(menuTop),
     Width =Style.getPropertyValue('width');
     console.log(Width);
-     var is = false;
+    // var is = true;
 
      
 
@@ -29,18 +31,11 @@ ready(function () {
         menuTop.style.width = "270px";
         closeBtn.style.zIndex = "10";
         OpenBtn.style.right = "200px";
-        
-         is = true;
-         console.log(Width);
+        menuTop.style.boxShadow="0px 0px 4px 2px rgba(0, 0, 0, .7)";
+       logoBrand.style.transform="scale(0.9)";
     });
 
-    if(window.pageXOffset>1150) {
-        closeBtn.style.zIndex = "-100";
-        OpenBtn.style.display = "block";
-        menuTop.style.width = "0px";
-        OpenBtn.style.right = "5%"; 
-        console.log('hi');
-    }
+   
 
    
 
@@ -53,6 +48,7 @@ ready(function () {
         closeBtn.style.zIndex = "-100";
         OpenBtn.style.display = "block";
         menuTop.style.width = "0px";
+        menuTop.style.boxShadow="none";
         OpenBtn.style.right = "5%";
       
        
