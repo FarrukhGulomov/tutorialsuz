@@ -404,15 +404,16 @@ transition: box-shadow  ease-out .4s;
   z-index: 1;
 }
 .btn::before{
+  transition: all .5s ease;
   position: absolute;
   top: 0;
   left: 50%;
   right: 50%;
-  bottom: 0;
+  bottom:0;
   opacity: 0;
   content: "";
-  background-color:#42fbf2;
-
+  background-color:#0f3e74;
+ 
 }
 .btn:hover::before{
 left: 0;

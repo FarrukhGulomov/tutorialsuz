@@ -22,7 +22,7 @@ ready(function () {
     console.log(Width);
      var is = false;
 
-
+     
 
     OpenBtn.addEventListener('click', function () {
         menuTop.style.zIndex = "9";
@@ -33,8 +33,13 @@ ready(function () {
          is = true;
          console.log(Width);
     });
-    if(window.screenX<=1150) {
-        console.log("Hey");
+
+    if(window.pageXOffset>1150) {
+        closeBtn.style.zIndex = "-100";
+        OpenBtn.style.display = "block";
+        menuTop.style.width = "0px";
+        OpenBtn.style.right = "5%"; 
+        console.log('hi');
     }
 
    
