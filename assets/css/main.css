@@ -244,7 +244,6 @@ header .header-bottom  .menu-top{
 #menu-toggle{
   display: none;
   position: absolute;
- /* right: 260px;*/
   right:5%;
   top: 12%;
   z-index: -100;
@@ -459,16 +458,14 @@ header .header-bottom .menu-top .navbar-menu li {
 header .header-bottom  .menu-top {
  
   top: 0;
- /*visibility:hidden;
-  display: none;*/
+
   right: 0;
   width: 0px;
   height: 100%;
-  /*background-color:#92b2be;*/
   position: fixed;
   z-index: -100;
   overflow-x: hidden;
-  box-shadow: 4px 0 10px rgba(0, 0, 0, .1);
+  
   border-left:1px solid transparent;
   padding-top: 56px;
   padding-bottom: 56px;
@@ -476,7 +473,7 @@ header .header-bottom  .menu-top {
   display .5s ease;
   
   opacity: .8;
-box-shadow:0px 0px 15px 4px rgba(0, 0, 0, .6);
+box-shadow:0px 0px 4px 2px rgba(0, 0, 0, .7);
 background: -webkit-linear-gradient(to right, #A7BFE8, #6190E8);  /* Chrome 10-25, Safari 5.1-6 */
 background: linear-gradient(to right, #A7BFE8, #6190E8); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
 
