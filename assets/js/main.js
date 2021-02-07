@@ -17,28 +17,25 @@ ready(function () {
     const closeBtn = document.getElementById("close-btn");
     const mainBg = document.querySelector(".main-bg");
     const navbarMenu = document.querySelector(".navbar-menu");
-    const Style = window.getComputedStyle(menuTop),
-    BackgroundColor =Style.getPropertyValue('backgroundColor');
-   
-   // console.log(Display);
-    
-   var is = false;
-
-
-
+    var Style = window.getComputedStyle(menuTop),
+    Width =Style.getPropertyValue('width');
+    console.log(Width);
+     var is = false;
 
 
 
     OpenBtn.addEventListener('click', function () {
-
         menuTop.style.zIndex = "9";
         menuTop.style.width = "270px";
         closeBtn.style.zIndex = "10";
         OpenBtn.style.right = "200px";
-       
+        
          is = true;
-    
+         console.log(Width);
     });
+    if(window.screenX<=1150) {
+        console.log("Hey");
+    }
 
    
 

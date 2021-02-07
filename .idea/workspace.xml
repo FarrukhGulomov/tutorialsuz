@@ -4,6 +4,7 @@
     <list default="true" id="54b5f9cd-b2dd-40e7-af0d-7388111bda66" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/assets/css/main.css" beforeDir="false" afterPath="$PROJECT_DIR$/assets/css/main.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/assets/js/main.js" beforeDir="false" afterPath="$PROJECT_DIR$/assets/js/main.js" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/index.html" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -41,7 +42,7 @@
       <workItem from="1612541942837" duration="5229000" />
       <workItem from="1612614751961" duration="600000" />
       <workItem from="1612629316271" duration="2362000" />
-      <workItem from="1612687380509" duration="1443000" />
+      <workItem from="1612687380509" duration="2285000" />
     </task>
     <servers />
   </component>
@@ -50,5 +51,11 @@
   </component>
   <component name="VcsManagerConfiguration">
     <option name="ADD_EXTERNAL_FILES_SILENTLY" value="true" />
+  </component>
+  <component name="WindowStateProjectService">
+    <state x="174" y="84" key="#com.intellij.execution.impl.EditConfigurationsDialog" timestamp="1612701801747">
+      <screen x="0" y="0" width="1440" height="860" />
+    </state>
+    <state x="174" y="84" key="#com.intellij.execution.impl.EditConfigurationsDialog/0.0.1440.860@0.0.1440.860" timestamp="1612701801747" />
   </component>
 </project>
