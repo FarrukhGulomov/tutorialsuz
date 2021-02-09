@@ -19,6 +19,7 @@ ready(function () {
     const navbarMenu = document.querySelector(".navbar-menu");
     var section =document.querySelector("section");
     const logoBrand=document.querySelector(".logo-brand");
+    const menuTextTwo=document.querySelector(".menu_text_two");
     var Style = window.getComputedStyle(menuTop),
     Width =Style.getPropertyValue('width');
     console.log(Width);
@@ -30,9 +31,12 @@ ready(function () {
         menuTop.style.zIndex = "9";
         menuTop.style.width = "270px";
         closeBtn.style.zIndex = "10";
-        OpenBtn.style.right = "200px";
+        OpenBtn.style.right = "255px";
+        OpenBtn.style.zIndex="10";
         menuText.classList.toggle("d-none");
-        
+        OpenBtn.style.backgroundColor="#A7BFE8";
+        menuTextTwo.style.left="32px";
+        OpenBtn.style.pointerEvents="none";
     });
 
    
@@ -49,8 +53,8 @@ ready(function () {
         OpenBtn.style.display = "block";
         menuTop.style.width = "0px";
         OpenBtn.style.right = "5%";
-        OpenBtn.classList.toggle("d-none");
-        
+        menuText.classList.toggle("d-none");
+        menuTextTwo.style.left="-100px";
        
        
     });
