@@ -23,7 +23,7 @@ ready(function () {
     var Style = window.getComputedStyle(menuTop),
     Width =Style.getPropertyValue('width');
     console.log(Width);
-    // var is = true;
+   var is = true;
 
      
 
@@ -32,7 +32,7 @@ ready(function () {
         menuTop.style.width = "270px";
         closeBtn.style.zIndex = "10";
         OpenBtn.style.right = "255px";
-        OpenBtn.style.zIndex="10";
+        OpenBtn.style.zIndex="9";
         menuText.classList.toggle("d-none");
         OpenBtn.style.backgroundColor="#A7BFE8";
         menuTextTwo.style.left="32px";
@@ -55,22 +55,22 @@ ready(function () {
         OpenBtn.style.right = "5%";
         menuText.classList.toggle("d-none");
         menuTextTwo.style.left="-100px";
-       
+        OpenBtn.style.pointerEvents="auto";
        
     });
     
 
 
-if(is){
+// // if(is){
    
-OpenBtn.addEventListener("click",function(){
-    closeBtn.style.zIndex = "-100";
-    menuTop.style.width = "0px";
-    OpenBtn.style.right = "5%";
+// // OpenBtn.addEventListener("click",function(){
+// //     closeBtn.style.zIndex = "-100";
+// //     menuTop.style.width = "0px";
+// //     OpenBtn.style.right = "5%";
 
-});
-is=false;
-}
+// // });
+// is=false;
+// }
 
 
 

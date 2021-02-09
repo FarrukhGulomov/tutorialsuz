@@ -257,7 +257,7 @@ header .header-bottom  .menu-top{
   background: linear-gradient(to right, #a8c6d4, #a6c3d3); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
   text-align: center;
   color:#1D4350;
-/*pointer-events: none;*/
+
   
 }
 
@@ -270,7 +270,8 @@ display: inline-block;
 font-family: 'Basic','sans-serif';
 font-style: normal;
 font-weight: 400;
-font-size: 16px;
+font-size: 14px;
+letter-spacing: 1.2px;
 transition: left .5s ease-out;
 }
 
