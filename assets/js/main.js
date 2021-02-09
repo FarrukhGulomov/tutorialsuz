@@ -26,13 +26,13 @@ ready(function () {
 
      
 
-    OpenBtn.addEventListener('click', function () {
+        OpenBtn.addEventListener('click', function () {
         menuTop.style.zIndex = "9";
         menuTop.style.width = "270px";
         closeBtn.style.zIndex = "10";
         OpenBtn.style.right = "200px";
         menuTop.style.boxShadow="0px 0px 4px 2px rgba(0, 0, 0, .7)";
-      
+        menuText.classList.toggle("d-none");
     });
 
    
@@ -52,7 +52,7 @@ ready(function () {
         OpenBtn.style.right = "5%";
         logoBrand.style.transform="scale(1)";
         section.style.transform="scale(1)";
-       
+        menuText.classList.toggle("d-none");
         
        
        
