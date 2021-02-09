@@ -39,7 +39,10 @@ ready(function () {
         OpenBtn.style.pointerEvents="none";
     });
 
-   
+   if(window.width>1150) {
+       OpenBtn.style.display="none";
+       console.log("hello");
+   }
        
     
 
