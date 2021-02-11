@@ -23,7 +23,6 @@ ready(function () {
     // var Style = window.getComputedStyle(),
     // Width =Style.getPropertyValue('width');
     var window_Size=window.matchMedia('(max-width:1150px)');
-   // console.log(window_Size);
     var is=false;
    
 
@@ -52,16 +51,6 @@ ready(function () {
 
    
        
-//    if(window.screenX>window_Size) {
-//        OpenBtn.style.display="none";
-//    }
-    //    if(!is) {
-
-    //    }
-    
-
-    
-     
     
     closeBtn.addEventListener('click', function (event) {
 
