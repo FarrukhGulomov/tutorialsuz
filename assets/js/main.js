@@ -45,8 +45,9 @@ ready(function () {
         OpenBtn.style.backgroundColor="#A7BFE8";
         menuTextTwo.style.left="32px";
         OpenBtn.style.pointerEvents="none";
-        is=true;
-        console.log(is);
+        menuTextTwo.style.opacity="1";
+        menuTextTwo.style.zIndex="1";
+        
     });
 
    
@@ -60,24 +61,13 @@ ready(function () {
     
 
     
-     if(is) {
-     window.addEventListener("click",function(){
-         closeBtn.style.zIndex = "-100";
-         OpenBtn.style.display = "block";
-         menuTop.style.width = "0px";
-         OpenBtn.style.right = "5%";
-         menuText.classList.toggle("d-none");
-         menuTextTwo.style.left="-50px";
-         OpenBtn.style.pointerEvents="auto";  
-         console.log(is);
-     });   }
+     
     
     closeBtn.addEventListener('click', function (event) {
 
         event.preventDefault();
 
-        console.log(is);
-        closeBtn.style.zIndex = "-100";
+        closeBtn.style.zIndex = "-10000";
         OpenBtn.style.display = "block";
         menuTop.style.width = "0px";
         OpenBtn.style.right = "5%";
@@ -86,19 +76,6 @@ ready(function () {
         OpenBtn.style.pointerEvents="auto";
       
     });
-
-// // if(is){
-   
-// // OpenBtn.addEventListener("click",function(){
-// //     closeBtn.style.zIndex = "-100";
-// //     menuTop.style.width = "0px";
-// //     OpenBtn.style.right = "5%";
-
-// // });
-// is=false;
-// }
-
-
 
 
 });
