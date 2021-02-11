@@ -20,12 +20,20 @@ ready(function () {
     var section =document.querySelector("section");
     const logoBrand=document.querySelector(".logo-brand");
     const menuTextTwo=document.querySelector(".menu_text_two");
-    var Style = window.getComputedStyle(menuTop),
-    Width =Style.getPropertyValue('width');
-    console.log(Width);
-   var is = true;
+    // var Style = window.getComputedStyle(),
+    // Width =Style.getPropertyValue('width');
+    var window_Size=window.matchMedia('(max-width:1150px)');
+   // console.log(window_Size);
+    var is=false;
+   
 
-     
+
+
+   
+    
+   
+    
+  
 
     OpenBtn.addEventListener('click', function () {
         menuTop.style.zIndex = "9";
@@ -37,13 +45,17 @@ ready(function () {
         OpenBtn.style.backgroundColor="#A7BFE8";
         menuTextTwo.style.left="32px";
         OpenBtn.style.pointerEvents="none";
+        is=true;
     });
 
-   if(window.width>1150) {
-       OpenBtn.style.display="none";
-       console.log("hello");
-   }
+   
        
+   if(window.screenX>window_Size) {
+       OpenBtn.style.display="none";
+   }
+    //    if(!is) {
+
+    //    }
     
 
 
@@ -57,12 +69,13 @@ ready(function () {
         menuTop.style.width = "0px";
         OpenBtn.style.right = "5%";
         menuText.classList.toggle("d-none");
-        menuTextTwo.style.left="-100px";
+        menuTextTwo.style.left="-50px";
         OpenBtn.style.pointerEvents="auto";
-       
-    });
-    
 
+
+      
+    });
+   
 
 // // if(is){
    
