@@ -46,24 +46,37 @@ ready(function () {
         menuTextTwo.style.left="32px";
         OpenBtn.style.pointerEvents="none";
         is=true;
+        console.log(is);
     });
 
    
        
-   if(window.screenX>window_Size) {
-       OpenBtn.style.display="none";
-   }
+//    if(window.screenX>window_Size) {
+//        OpenBtn.style.display="none";
+//    }
     //    if(!is) {
 
     //    }
     
 
-
+    
+     if(is) {
+     window.addEventListener("click",function(){
+         closeBtn.style.zIndex = "-100";
+         OpenBtn.style.display = "block";
+         menuTop.style.width = "0px";
+         OpenBtn.style.right = "5%";
+         menuText.classList.toggle("d-none");
+         menuTextTwo.style.left="-50px";
+         OpenBtn.style.pointerEvents="auto";  
+         console.log(is);
+     });   }
+    
     closeBtn.addEventListener('click', function (event) {
 
         event.preventDefault();
 
-        
+        console.log(is);
         closeBtn.style.zIndex = "-100";
         OpenBtn.style.display = "block";
         menuTop.style.width = "0px";
@@ -71,11 +84,8 @@ ready(function () {
         menuText.classList.toggle("d-none");
         menuTextTwo.style.left="-50px";
         OpenBtn.style.pointerEvents="auto";
-
-
       
     });
-   
 
 // // if(is){
    
