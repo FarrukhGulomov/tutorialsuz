@@ -42,10 +42,10 @@ ready(function () {
         OpenBtn.style.zIndex="9";
         menuText.classList.toggle("d-none");
         OpenBtn.style.backgroundColor="#A7BFE8";
-        menuTextTwo.style.left="32px";
-        OpenBtn.style.pointerEvents="none";
-        menuTextTwo.style.opacity="1";
-        menuTextTwo.style.zIndex="1";
+        // menuTextTwo.style.left="32px";
+        // OpenBtn.style.pointerEvents="none";
+        // menuTextTwo.style.opacity="1";
+        // menuTextTwo.style.zIndex="1";
         
     });
 
@@ -61,7 +61,7 @@ ready(function () {
         menuTop.style.width = "0px";
         OpenBtn.style.right = "5%";
         menuText.classList.toggle("d-none");
-        menuTextTwo.style.left="-50px";
+        menuTextTwo.style.left="-75px";
         OpenBtn.style.pointerEvents="auto";
       
     });
