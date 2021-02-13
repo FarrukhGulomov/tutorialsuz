@@ -42,10 +42,10 @@ ready(function () {
         OpenBtn.style.zIndex="9";
         menuText.classList.toggle("d-none");
         OpenBtn.style.backgroundColor="#A7BFE8";
-        // menuTextTwo.style.left="32px";
-        // OpenBtn.style.pointerEvents="none";
-        // menuTextTwo.style.opacity="1";
-        // menuTextTwo.style.zIndex="1";
+        menuTextTwo.style.left="32px";
+        OpenBtn.style.pointerEvents="none";
+        menuTextTwo.style.opacity="1";
+        menuTextTwo.style.zIndex="1";
         
     });
 
@@ -55,9 +55,7 @@ ready(function () {
     closeBtn.addEventListener('click', function (event) {
 
         event.preventDefault();
-
         closeBtn.style.zIndex = "-10000";
-        OpenBtn.style.display = "block";
         menuTop.style.width = "0px";
         OpenBtn.style.right = "5%";
         menuText.classList.toggle("d-none");
