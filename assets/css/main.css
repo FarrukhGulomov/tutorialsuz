@@ -99,7 +99,12 @@ box-sizing: border-box;
 }
 
 
-
+header{
+  
+    position: -webkit-sticky;
+    position: sticky;
+  
+}
 
 /*   Header          */
 
@@ -111,10 +116,7 @@ background-color:#fff;
 
 }
 
-.header{
-  position:sticky;
-top: 0;
-}
+
 
 
 header .header-top {
