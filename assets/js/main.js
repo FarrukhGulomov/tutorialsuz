@@ -7,6 +7,8 @@ const ready = function (cb) {
         : cb();
 };
 
+
+
 // Usage
 ready(function () {
 
@@ -65,4 +67,14 @@ ready(function () {
     });
 
      
+   
+
+
+
+
+
+
+
+
+
 });
