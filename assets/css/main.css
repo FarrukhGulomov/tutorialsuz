@@ -108,7 +108,15 @@ header .header {
   width: 100%;
 background-color:#fff;
 
+
 }
+
+.header{
+  position:sticky;
+top: 0;
+}
+
+
 header .header-top {
 
 display: flex;
