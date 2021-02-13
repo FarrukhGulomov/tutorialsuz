@@ -66,8 +66,15 @@ ready(function () {
       
     });
 
-     
-   
+    
+   window.addEventListener('scroll',function(){
+            if(window.scrollY>0) {
+                document.querySelector("header").style.position="sticky";
+                document.querySelector("header").style.top="0";
+                document.querySelector("header").style.zIndex="3";
+                console.log('hi');
+            }
+   });
 
 
 
