@@ -411,8 +411,9 @@ section .main-bg {
   width: 100%;
   background: #d9e7ee url(../img/bg4.jpg) no-repeat ;
   background-position-y: 90%;
+  background-position-x:50%;
   background-size: cover;
-  height: 79vh;
+  padding-bottom: 10rem;
   transition: background-position-x .5s ease;
 }
 .btn-check:focus + .btn, .btn:focus {
