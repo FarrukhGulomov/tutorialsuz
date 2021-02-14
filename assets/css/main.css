@@ -104,6 +104,10 @@ box-sizing: border-box;
 /*   Header          */
 
 /*   Header-top      */
+
+header {
+transition:position 2s ease;
+}
 header .header {   
   width: 100%;
 background-color:#fff;
