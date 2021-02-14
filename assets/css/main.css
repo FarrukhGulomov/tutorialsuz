@@ -465,8 +465,12 @@ z-index: -1;
 .box {
  border:1px solid #ccc;
  padding: 52px 50px;
+margin: 25px 0;
 } 
 
+.box-text h1 {
+font-size: 24px;
+}
 
   
  

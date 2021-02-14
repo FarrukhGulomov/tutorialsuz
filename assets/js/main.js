@@ -84,7 +84,11 @@ ready(function () {
 
 
 
+  for (let i =0 ;i<2666; i++) {
+      setTimeout (
+    document.getElementById('counter').innerText=i,3000);
 
+  }
 
 
 
