@@ -460,6 +460,13 @@ opacity: 1;
 z-index: -1;
 }
 
+/************** MAIN boxes*************/
+
+.box {
+ border:1px solid #ccc;
+ padding: 52px 50px;
+} 
+
 
   
  

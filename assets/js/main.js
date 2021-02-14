@@ -22,6 +22,7 @@ ready(function () {
     var section =document.querySelector("section");
     const logoBrand=document.querySelector(".logo-brand");
     const menuTextTwo=document.querySelector(".menu_text_two");
+    const header = document.querySelector("header");
     // var Style = window.getComputedStyle(),
     // Width =Style.getPropertyValue('width');
     var window_Size=window.matchMedia('(max-width:1150px)');
@@ -69,15 +70,15 @@ ready(function () {
     
    window.addEventListener('scroll',function(){
             if(window.scrollY>200) {
-                document.querySelector("header").style.position="sticky";
-                document.querySelector("header").style.top="0";
-                document.querySelector("header").style.zIndex="3";
-                document.querySelector("header").className="sticky";
+                header.style.position="sticky";
+                header.style.top="0";
+                header.style.zIndex="3";
+                header.className="sticky";
                
             }
             else {
-                document.querySelector("header").style.position="relative";
-                document.querySelector("header").removeAttribute("class");
+                header.style.position="relative";
+                header.removeAttribute("class");
             }
    });
 
