@@ -96,6 +96,7 @@
 
 *{
 box-sizing: border-box;
+scroll-behavior: smooth;
 }
 
 
@@ -105,9 +106,18 @@ box-sizing: border-box;
 
 /*   Header-top      */
 
-header {
+header  {
+
 transition:position 2s ease;
 }
+
+header .sticky{
+ position: sticky;
+ top: 0;
+ z-index: 3; 
+ box-shadow:0 0 4px 6px rgba(0, 0, 0, .5);
+}
+
 header .header {   
   width: 100%;
 background-color:#fff;
