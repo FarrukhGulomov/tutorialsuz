@@ -69,14 +69,15 @@ ready(function () {
     
    window.addEventListener('scroll',function(){
             if(window.scrollY>200) {
-                // document.querySelector("header").style.position="sticky";
-                // document.querySelector("header").style.top="0";
-                // document.querySelector("header").style.zIndex="3";
-                document.querySelector("header").css("sticky");
+                document.querySelector("header").style.position="sticky";
+                document.querySelector("header").style.top="0";
+                document.querySelector("header").style.zIndex="3";
+                document.querySelector("header").className="sticky";
                
             }
             else {
                 document.querySelector("header").style.position="relative";
+                document.querySelector("header").removeAttribute("class");
             }
    });
 

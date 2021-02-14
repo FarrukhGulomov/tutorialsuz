@@ -107,15 +107,16 @@ scroll-behavior: smooth;
 /*   Header-top      */
 
 header  {
-
-transition:position 2s ease;
+  position: sticky;
+transition:all 2s ease;
+top: 0;
 }
 
-header .sticky{
- position: sticky;
- top: 0;
+ .sticky{
+
+ 
  z-index: 3; 
- box-shadow:0 0 4px 6px rgba(0, 0, 0, .5);
+ box-shadow:0 0 10px  rgba(0, 0, 0, .5);
 }
 
 header .header {   
